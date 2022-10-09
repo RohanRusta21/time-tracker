@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/*.jar *.jar
-ENTRYPOINT ["java", "-jar","*.jar"]
+ADD target/time-tracker-core-0.5.0-SNAPSHOT.jar time-tracker-core-0.5.0-SNAPSHOT.jar.jar
+ENTRYPOINT ["java", "-jar","time-tracker-core-0.5.0-SNAPSHOT.jar.jar"]
 EXPOSE 7000
