@@ -62,7 +62,7 @@
                     <version>${checkstyle.version}</version>
                 </plugin>
             </plugins>
-        </pluginManagement>
+        </pluginManagement>   
     </build>
 
     <reporting>
